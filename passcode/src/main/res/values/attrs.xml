@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LockcodeView">
+        <attr name="lockedViewType" format="enum">
+            <enum name="set_lockcode" value="0"/>
+            <enum name="check_lockcode" value="1"/>
+        </attr>
+        <attr name="normalStateColor" format="color"/>
+        <attr name="correctStateColor" format="color"/>
+        <attr name="wrongStateColor" format="color"/>
+        <attr name="numberTextColor" format="color"/>
+        <attr name="lockedLength" format="integer"/>
+        <attr name="firstInputTip" format="string"/>
+        <attr name="secondInputTip" format="string"/>
+        <attr name="wrongLengthTip" format="string"/>
+        <attr name="wrongInputTip" format="string"/>
+        <attr name="correctInputTip" format="string"/>
+    </declare-styleable>
+</resources>
