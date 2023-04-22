@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="936d3178-e67f-46ea-a56c-c972127737d8" name="Changes" comment="Passcod" />
+    <list default="true" id="936d3178-e67f-46ea-a56c-c972127737d8" name="Changes" comment="Passcode" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -208,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682156258685</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Passcode">
+      <created>1682156618213</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682156618213</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,12 +230,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Passcode" />
     <MESSAGE value="Passcode v2" />
     <MESSAGE value="Passcode v3" />
     <MESSAGE value="Passcode v4" />
     <MESSAGE value="Passcode v5" />
     <MESSAGE value="Passcod" />
-    <option name="LAST_COMMIT_MESSAGE" value="Passcod" />
+    <MESSAGE value="Passcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="Passcode" />
   </component>
 </project>
