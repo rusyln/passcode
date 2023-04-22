@@ -9,12 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="936d3178-e67f-46ea-a56c-c972127737d8" name="Changes" comment="Passcode v3">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="936d3178-e67f-46ea-a56c-c972127737d8" name="Changes" comment="Passcode v4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jitpack.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jitpack.yml" afterDir="false" />
     </list>
@@ -59,21 +54,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;android-custom-viewF:/ProjectFrance/Development/PIN/passcode/src/main/java/com/rus/passcode/CircleView.java_SELECTED&quot;: &quot;CircleView&quot;,
-    &quot;android-custom-viewF:/ProjectFrance/Development/PIN/passcode/src/main/java/com/rus/passcode/LockView.java_SELECTED&quot;: &quot;LockView&quot;,
-    &quot;android.gradle.sync.needed&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/ProjectFrance/Development/PassCode/passcode&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "android-custom-viewF:/ProjectFrance/Development/PIN/passcode/src/main/java/com/rus/passcode/CircleView.java_SELECTED": "CircleView",
+    "android-custom-viewF:/ProjectFrance/Development/PIN/passcode/src/main/java/com/rus/passcode/LockView.java_SELECTED": "LockView",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "F:/ProjectFrance/Development/PassCode/passcode",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
-}</component>
+}]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="gradle app:testReleaseUnitTest" />
@@ -195,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682153375150</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Passcode v4">
+      <created>1682154536948</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682154536948</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,6 +215,7 @@
     <MESSAGE value="Passcode" />
     <MESSAGE value="Passcode v2" />
     <MESSAGE value="Passcode v3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Passcode v3" />
+    <MESSAGE value="Passcode v4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Passcode v4" />
   </component>
 </project>
