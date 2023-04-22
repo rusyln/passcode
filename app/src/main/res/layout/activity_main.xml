@@ -15,4 +15,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <com.rus.passcode.LockView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:id="@+id/line1"
+        android:layout_height="match_parent"
+        app:correctStateColor="#71bb4d"
+        app:wrongStateColor="#ea2b46"
+        app:normalStateColor="@color/black"
+        app:numberTextColor="@color/black"
+        app:lockedLength="4"
+        app:lockedViewType="set_lockcode"
+        tools:ignore="MissingClass" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

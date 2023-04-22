@@ -35,11 +35,3 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 }
-afterEvaluate {
-    android.libraryVariants.each{variant->publishing.publications.create(variant.name,MavenPublication){
-        from components.findByName(variant.name)
-        groupId='com.rus'
-        artifactId='passcode'
-        version='0.0.1'
-    }}
-}
