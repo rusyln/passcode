@@ -1,13 +1,26 @@
 plugins {
     id 'com.android.library'
     id 'maven-publish'
-}
 
+}
+apply plugin: 'maven-publish'
 android {
+    publishing {
+        singleVariant('release') {
+            withSourcesJar()
+        }
+    }
     namespace 'com.rus.passcode'
     compileSdk 33
+    testFixtures {
+        enable = true
+    }
 
     defaultConfig {
+        aarMetadata {
+            minCompileSdk = 29
+        }
+
         minSdk 24
         targetSdk 33
 
@@ -35,11 +48,17 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 }
-afterEvaluate {
-    android.libraryVariants.each{variant->publishing.publications.create(variant.name,MavenPublication){
-        from components.findByName(variant.name)
-        groupId='com.rus'
-        artifactId='passcode'
-        version='1.1.0'
-    }}
+
+publishing {
+    publications {
+        release(MavenPublication) {
+            groupId = 'com.rus'
+            artifactId = 'passcode'
+            version = '1.2.1'
+
+            afterEvaluate {
+                from components.release
+            }
+        }
+    }
 }
